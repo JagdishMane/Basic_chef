@@ -1,8 +1,8 @@
 file '/var/www/html/index.html' do
-	content "This is webnode1"
-	mode 7555
-	owner user
-	groups apache
+	content "This is webnode1------------------------------------------------"
+	mode 755
+	owner "user"
+	group "apache"
 end
 
 service 'httpd' do
