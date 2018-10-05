@@ -8,3 +8,9 @@ end
 service 'httpd' do
 	action [:enable,:start]
 end
+
+webnodes = search('node', 'role:web')
+
+webnodes.each do | node|
+	puts node
+end
