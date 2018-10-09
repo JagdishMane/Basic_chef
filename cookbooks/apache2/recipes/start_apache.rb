@@ -1,5 +1,5 @@
 file '/var/www/html/index.html' do
-	content "This is webnode1------------------------------------------------"
+	content "This is webnode1---v2.0.0"
 	mode 755
 	owner "user"
 	group "apache"
